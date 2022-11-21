@@ -11,12 +11,9 @@
 
 <body>
 
-<!--
 <iframe src="dossierdiprogetto_snopex2022.pdf" width="100%" height="100%">
 This browser does not support PDFs. Please download the PDF to view it: 
 <a href="dossierdiprogetto_snopex2022.pdf">Download PDF</a></iframe>
--->
-<iframe id="pdfviewer" src="http://docs.google.com/gview?embedded=true&url=https://alexdinicola.github.io/dossierdiprogetto_snopex2022.pdf&amp;embedded=true" frameborder="0" width="100%" height="100%"></iframe>
 
 </body>
 

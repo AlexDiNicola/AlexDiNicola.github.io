@@ -1,3 +1,15 @@
+<DOCTYPE html>
+<html>
+<head>
+<style>
+#main {
+	width:100vh;
+	height: 100vh;
+}
+</style>
+</head>
+
+<body>
 <?php
   
 // The location of the PDF file
@@ -12,3 +24,6 @@ header("Content-Length: " . filesize($filename));
 // Send the file to the browser.
 readfile($filename);
 ?> 
+</body>
+
+</html>

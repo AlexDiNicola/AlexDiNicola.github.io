@@ -1,20 +1,14 @@
-<DOCTYPE html>
-<html>
-<head>
-<style>
-#main {
-	width:100vh;
-	height: 100vh;
-}
-</style>
-</head>
-
-<body>
-
-<iframe src="dossierdiprogetto_snopex2022.pdf" width="100%" height="100%">
-This browser does not support PDFs. Please download the PDF to view it: 
-<a href="dossierdiprogetto_snopex2022.pdf">Download PDF</a></iframe>
-
-</body>
-
-</html>
+<?php
+  
+// The location of the PDF file
+// on the server
+$filename = "dossierdiprogetto_snopex2022.pdf";
+  
+// Header content type
+header("Content-type: application/pdf");
+  
+header("Content-Length: " . filesize($filename));
+  
+// Send the file to the browser.
+readfile($filename);
+?> 
